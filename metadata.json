@@ -1,0 +1,6 @@
+{
+  "name": "KDP Coffee Journal Interior Generator",
+  "description": "Ready-to-use 123-page interior design generator for KDP Amazon (size 8.5x11 inches) for female coffee lovers in monochrome Black & White.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

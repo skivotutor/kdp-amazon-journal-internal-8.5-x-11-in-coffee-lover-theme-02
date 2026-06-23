@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom background slow scroll design or dainty minimal aesthetics */
+body {
+  background-color: #f4f4f5; /* Clean zinc-100 background for a premium minimalist feels */
+  color: #09090b; /* Deep zinc-950 text */
+  font-family: var(--font-sans);
+  font-weight: 300; /* Sophisticated light weight default */
+}
+
+/* Print simulation paper styling */
+.paper-glow {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03), 0 2px 12px rgba(0, 0, 0, 0.02);
+}
